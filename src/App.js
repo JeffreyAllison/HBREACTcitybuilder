@@ -19,10 +19,6 @@ function App() {
   // finally, you'll need an array of slogans, which could start out as ['The City of Excellence'] for example
   const [slogan, setSlogans] = useState(['Rose City']);
 
-  // function setCityName(e) {
-  //   setCityName(e.target.value);
-  // }
-
   return (
     <div className="App">
       {/* here, the City component takes in skylineId, waterfrontId, castleId as props. It'll use those ids to render pictures correctly. */}

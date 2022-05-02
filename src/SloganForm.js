@@ -1,4 +1,3 @@
-import SloganList from './SloganList';
 import { useState } from 'react';
 
 export default function SloganForm({ slogans, setSlogans }) {
